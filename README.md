@@ -6,7 +6,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)](LICENSE)
 
-**SSA4ALL** is a high-performance, web-native **Space Domain Awareness (SDA)** and **Orbital Intelligence** platform. Designed for mission operators, space traffic managers, and orbital analysts, SSA4ALL provides real-time SGP4/SDP4 orbit propagation, phased-array radar tasking, collision avoidance maneuver (CAM) planning, spacecraft multiphysics diagnostics, and decentralized open sensor ingestion.
+**SSA4ALL** is an open-source, web-native **Space Domain Awareness (SDA)** and **Orbital Intelligence** platform. Designed for mission operators, space traffic managers, and orbital analysts, SSA4ALL provides real-time SGP4/SDP4 orbit propagation, phased-array radar tasking, collision avoidance maneuver (CAM) planning, spacecraft multiphysics diagnostics, and decentralized open sensor ingestion.
 
 ---
 <img width="1886" height="1057" alt="s1" src="https://github.com/user-attachments/assets/b407af7c-448a-4704-86c6-fee9a79c9483" />
