@@ -9,6 +9,7 @@
 **SSA4ALL** is a high-performance, web-native **Space Domain Awareness (SDA)** and **Orbital Intelligence** platform. Designed for mission operators, space traffic managers, and orbital analysts, SSA4ALL provides real-time SGP4/SDP4 orbit propagation, phased-array radar tasking, collision avoidance maneuver (CAM) planning, spacecraft multiphysics diagnostics, and decentralized open sensor ingestion.
 
 ---
+<img width="1886" height="1057" alt="s1" src="https://github.com/user-attachments/assets/b407af7c-448a-4704-86c6-fee9a79c9483" />
 
 ## 🌟 Key Capabilities & Architecture
 
@@ -29,16 +30,20 @@
 - **Foster 3D Probability Density Integration ($P_c$):** Real-time probability of collision calculation from encounter covariance ellipsoids.
 - **Impulsive CAM Trajectory Optimization:** Instant calculation of $\Delta V$ posigrade/retrograde burn vectors ($m/s$) with post-maneuver miss distance expansion ($>6\text{ km}$) and $P_c$ neutralization.
 - **Authoritative CCSDS 508.0 CDM Export:** Downloadable Conjunction Data Message (CDM) files in standard format.
+<img width="1887" height="965" alt="s2" src="https://github.com/user-attachments/assets/2be7944c-95a4-4961-8440-7d21569a2d55" />
+
 
 ### 4. 🛰️ Spacecraft Multiphysics Telemetry & TLE Data
 - **Payload Subsystems:** Sensor Focal Plane Array (FPA) cryogenic temperatures ($-120.4^\circ\text{C}$), high-speed X/Ka-band downlink status ($850\text{ Mbps}$), reaction wheel momentum rates ($RW_1 \dots RW_4$), and thruster propellant budgets.
 - **Two-Line Element (TLE) Sets:** Raw Line 1 & Line 2 inspection with one-click copy and Keplerian orbital element breakdowns.
 - **Thermal & Environmental Flux Simulator:** Dynamic solar radiation flux ($1,000 - 1,800\text{ W/m}^2$), thermal radiator deployment, and solar particle storm simulation.
+<img width="1845" height="747" alt="s4" src="https://github.com/user-attachments/assets/364e874b-8689-470f-92ad-77bd482e1661" />
 
 ### 5. 🌐 Open Sensor Ecosystem & Telescope Astrometry
 - **🛰️ TinyGS Global LoRa Network:** Live ingestion of demodulated UHF ($433/868/915\text{ MHz}$) CubeSat LoRa frames from over 2,100+ global ground stations with decoded bus voltage, solar currents, and 3-axis gyro rates.
 - **📡 SatNOGS SDR Network:** Open-source SDR observations with high-resolution Waterfall RF spectrograms, carrier Doppler curves, and frame counters.
 - **🔭 MASCARA All-Sky Optical Telescopes:** Sub-arcsecond astrometric coordinates ($\text{RA } \alpha, \text{Dec } \delta$) and photometric light curve tumble period analysis ($P_{\text{tumble}} = 142.4\text{s}$) from La Palma and La Silla observatories.
+<img width="1222" height="825" alt="s3" src="https://github.com/user-attachments/assets/81405fc3-5411-4d5c-8df7-a914fcd05b16" />
 
 ### 6. 🤖 AI Flight Dynamics Copilot
 - **Tactical Command Parser:** Natural language command interpreter supporting rapid macros:
@@ -46,17 +51,6 @@
   - `/filter [debris|satellites|all]` — High-speed asset catalog filtering.
   - `/system-override-safety` — Autonomous execution of collision avoidance burns.
   - `/generate-report` — Multi-agency OpenSSA compliance report compilation.
-
----
-
-## 🎨 Theme & Visual Design System
-
-The visual identity is inspired by aerospace control rooms and modern space intelligence dashboards:
-- **Duke Blue:** `#1C0248` (Primary structure & glassmorphism panels)
-- **Neon Orange:** `#FF5B00` (High-contrast tactical highlights, beams, and active telemetry)
-- **True Black:** `#000000` (Deep space canvas background)
-- **Orbital Crimson:** `#FF1E56` (Critical conjunction alerts and debris tracks)
-- **Light & Dark Mode:** Seamless switching between Deep Space Dark Mode and Tactical Light Mode.
 
 ---
 
