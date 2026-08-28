@@ -1,0 +1,40 @@
+{
+  "name": "ssa4all-tactical-poc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "node scripts/fix-gh-pages.cjs",
+    "export": "next build",
+    "start": "next start",
+    "deploy": "gh-pages -d out --dotfiles",
+    "serve:static": "node server.cjs",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.5.5",
+    "@types/prop-types": "^15.7.15",
+    "@types/three": "^0.185.4",
+    "cesium": "^1.120.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.5.4",
+    "lucide-react": "^0.441.0",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "satellite.js": "^5.0.0",
+    "tailwind-merge": "^2.5.2",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.6.2"
+  }
+}
